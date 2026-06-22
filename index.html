@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso | Viajes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Viajes</h1>
+    </header>
+
+    <div class="login-wrapper">
+        <div class="login-card">
+            <h2>Bienvenido de nuevo</h2>
+            <p>Ingresa tus credenciales para planear tu próxima aventura.</p>
+            
+            <div id="errorMessage" class="error-msg">
+                Credenciales incorrectas. Revisa tu usuario y contraseña.
+            </div>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" placeholder="ej. admin" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

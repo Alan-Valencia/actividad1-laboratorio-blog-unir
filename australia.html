@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia | Viajes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Viajes</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Explorar</a></li>
+                <!-- Enlace activo -->
+                <li><a href="australia.html" style="color: var(--text-main); font-weight: 600;">Australia</a></li>
+                <li><a href="italia.html">Italia</a></li>
+                <li><a href="japon.html">Japón</a></li>
+                <li><a href="index.html" class="nav-logout">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero con margen cero -->
+        <img src="assets/img/australia.jpg" alt="Vista de la Ópera de Sídney" class="hero fade-in" style="margin-bottom: 0;">
+
+        <!-- Tarjeta de contenido superpuesta -->
+        <article class="fade-in delay-1" style="background: var(--bg-surface); padding: 3.5rem; border-radius: var(--radius); box-shadow: var(--shadow-hover); max-width: 850px; margin: -80px auto 4rem auto; position: relative; z-index: 10; border: 1px solid var(--border-color);">
+            
+            <h2 style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem; letter-spacing: -1px;">Explora el paraíso de Oceanía</h2>
+            
+            <!-- Badges informativos -->
+            <div class="badges-container">
+                <span class="badge">🌤️ Clima: Soleado / Tropical</span>
+                <span class="badge">💵 Moneda: Dólar (AUD)</span>
+                <span class="badge">🗣️ Idioma: Inglés</span>
+                <span class="badge">🛫 Vuelo prom: 22h</span>
+            </div>
+            
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-main); margin-bottom: 1.5rem;">
+                Australia es un país lleno de contrastes y maravillas naturales inigualables. Desde la vibrante vida urbana de Sídney con su icónica Casa de la Ópera, hasta el vasto e inhóspito desierto del Outback. Es el destino perfecto para los espíritus aventureros que buscan paisajes salvajes sin renunciar al lujo.
+            </p>
+            
+            <h3 style="margin: 2rem 0 1rem; color: var(--text-main);">Itinerario sugerido (Ruta de la Costa Este)</h3>
+            <ul style="margin-left: 1.5rem; margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">
+                <li><strong>Día 1-2:</strong> Sídney (Opera House, Harbour Bridge y Bondi Beach).</li>
+                <li><strong>Día 3-4:</strong> Cairns y expedición de buceo en la Gran Barrera de Coral.</li>
+                <li><strong>Día 5:</strong> Relajación en las playas de arena blanca de las Islas Whitsunday.</li>
+            </ul>
+            <!-- REQUISITO: Tabla Premium -->
+            <h3 style="margin: 3rem 0 1rem; color: var(--text-main);">Presupuesto Estimado (Vuelos + Hotel)</h3>
+            <table class="premium-table">
+                <thead>
+                    <tr>
+                        <th>Temporada</th>
+                        <th>Vuelo (Ida/Vuelta)</th>
+                        <th>Hotel (Noche)</th>
+                        <th>Disponibilidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alta (Verano - Dic/Feb)</td>
+                        <td>$ 1,850 AUD</td>
+                        <td>$ 250 AUD</td>
+                        <td>Baja 🔴</td>
+                    </tr>
+                    <tr>
+                        <td>Media (Primavera - Sep/Nov)</td>
+                        <td>$ 1,400 AUD</td>
+                        <td>$ 180 AUD</td>
+                        <td>Media 🟡</td>
+                    </tr>
+                    <tr>
+                        <td>Baja (Invierno - Jun/Ago)</td>
+                        <td>$ 1,100 AUD</td>
+                        <td>$ 130 AUD</td>
+                        <td>Alta 🟢</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Google Maps -->
+            <h3 style="margin: 3rem 0 1rem; color: var(--text-main);">Ubicación de la Ópera de Sídney</h3>
+            <div class="iframe-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.885810214697!2d151.21273571520993!3d-33.856784380659614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sau!4v1680000000000!5m2!1sen!2sau" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-main); padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+                <strong>Recomendación del editor:</strong> No te pierdas un atardecer en Uluru (Ayers Rock). El cambio de colores en esta gigantesca formación rocosa sagrada es una experiencia que te cambiará la vida.
+            </p>
+
+        </article>
+    </main>
+
+    <!-- Footer profesional -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Viajes.app</h4>
+                <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1rem;">Transformando la forma en la que exploras el planeta desde 2026. Tu próxima aventura empieza aquí.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="dashboard.html">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Destinos Top</h4>
+                <ul>
+                    <li><a href="italia.html">Europa</a></li>
+                    <li><a href="japon.html">Asia</a></li>
+                    <li><a href="australia.html">Oceanía</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Blog de Viajes. Creado para la entrega del Bloque 1.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
